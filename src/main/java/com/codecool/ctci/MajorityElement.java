@@ -15,7 +15,7 @@ public class MajorityElement {
         int count = 0 ;
         for (int n : array){
             if (n == majority){
-                count++
+                count++;
             }
         }
         return count > array.length/2;
